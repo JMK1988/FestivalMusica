@@ -1,0 +1,26 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMK1988/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Juan Marcos Kruppa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMK1988/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/JMK1988/FestivalMusica#readme",
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}
