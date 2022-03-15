@@ -387,6 +387,8 @@ h3 {
 
 img {
   max-width: 100%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -506,4 +508,17 @@ img {
 .contenido-festival .fecha {
   color: #f53756;
   font-weight: 700;
+}
+
+.lineup {
+  background-color: #f53756;
+  padding: 5 rem 0;
+}
+.lineup h3, .lineup p {
+  text-align: center;
+  color: #ffffff;
+}
+.lineup .dia {
+  text-transform: uppercase;
+  margin-bottom: 5rem;
 }
