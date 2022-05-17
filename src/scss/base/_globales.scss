@@ -2,6 +2,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -12,6 +13,10 @@ html{
 body{
     font-family: v.$fuente-principal;
     font-size: 1.6rem;
+
+    &.body-scroll{
+        padding-top
+    }
 }
 p{
     font-size: 2rem;
@@ -47,3 +52,4 @@ img{
     height: auto;
     display: block;
 }
+
